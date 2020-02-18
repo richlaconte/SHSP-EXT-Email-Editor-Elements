@@ -1,0 +1,1 @@
+# SHSP-EXT-Email-Editor-Elements
