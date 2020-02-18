@@ -1,0 +1,20 @@
+{
+    "name": "SHSP Email Editor Elements",
+    "version": "0.1",
+    "description": "Adds spacer, divider and social elements to the SharpSpring email editor.",
+    "permissions": [],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.marketingautomation.services/email/edit/*",
+                "*://*.marketingautomation.services/email/editTemplate/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "background": {},
+    "options_page": "options.html",
+    "manifest_version": 2
+}
